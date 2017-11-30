@@ -1,3 +1,4 @@
+#!usr/bin/env python
 import requests
 
 #POST Artists
@@ -109,7 +110,7 @@ files = {
 requests.post('http://localhost:4567/album/add', headers=headers, files=files)
 print("Posted Track with ID=4")
 #TrackId = 5
-audioPath = "audio/Shakira_-_Waka_Waka_This_Time_for_Africa_The_Official_2010_FIFA_World_Cup™_Song.mp3"
+audioPath = "audio/Shakira_-_Waka_Waka_This_Time_for_Africa_The_Official_2010_FIFA_World_Cup_Song.mp3"
 files = {
     'data': (audioPath, open(audioPath, 'rb')),
     'metadata': (None, '{\'title\':\'Waka Waka\',\'artistId\':3,\'albumId\':4,\'releaseDate\':\'1970-01-01\'}'),

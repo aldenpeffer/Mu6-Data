@@ -27,61 +27,61 @@ print("Posted Artist with ID=4")
 headers = {
     'Accept': 'application/json',
 }
-#AlbumId = 1
+#AlbumId = 5
 albumImagePath = 'images/Portugal._The_Man_Woodstock_album_cover.jpg'
 files = {
     'data': (albumImagePath, open(albumImagePath, 'rb')),
     'metadata': (None, '{\'title\':\'Woodstock\',\'artistId\':1,\'releaseDate\':\'1970-01-01\'}'),
 }
-print("Posted Album with ID=1")
+print("Posted Album with ID=5")
 requests.post('http://localhost:4567/album/add', headers=headers, files=files)
-#AlbumId = 2
+#AlbumId = 6
 albumImagePath = "images/Rise_Against_-_The_Sufferer_&_The_Witness.jpg"
 files = {
     'data': (albumImagePath, open(albumImagePath, 'rb')),
     'metadata': (None, '{\'title\':\'The Sufferer and The Witness\',\'artistId\':2,\'releaseDate\':\'1970-01-01\'}'),
 }
 requests.post('http://localhost:4567/album/add', headers=headers, files=files)
-print("Posted Album with ID=2")
-#AlbumId = 3
+print("Posted Album with ID=6")
+#AlbumId = 7
 albumImagePath = "images/Shakira_Oral_Fixation_2.jpg"
 files = {
     'data': (albumImagePath, open(albumImagePath, 'rb')),
     'metadata': (None, '{\'title\':\'Oral Fixation 2\',\'artistId\':3,\'releaseDate\':\'1970-01-01\'}'),
 }
 requests.post('http://localhost:4567/album/add', headers=headers, files=files)
-print("Posted Album with ID=3")
-#AlbumId = 4
+print("Posted Album with ID=7")
+#AlbumId = 8
 albumImagePath = "images/Shakira_sale_el_sol_single_cover.jpg"
 files = {
     'data': (albumImagePath, open(albumImagePath, 'rb')),
     'metadata': (None, '{\'title\':\'Sale el Sol\',\'artistId\':3,\'releaseDate\':\'1970-01-01\'}'),
 }
 requests.post('http://localhost:4567/album/add', headers=headers, files=files)
-print("Posted Album with ID=4")
-#AlbumId = 5
+print("Posted Album with ID=8")
+#AlbumId = 9
 albumImagePath = "images/Simon_and_Garfunk_Mrs._Robinson.jpg"
 files = {
     'data': (albumImagePath, open(albumImagePath, 'rb')),
     'metadata': (None, '{\'title\':\'Mrs.Robinson\',\'artistId\':4,\'releaseDate\':\'1970-01-01\'}'),
 }
 requests.post('http://localhost:4567/album/add', headers=headers, files=files)
-print("Posted Album with ID=5")
-#AlbumId = 6
+print("Posted Album with ID=9")
+#AlbumId = 10
 albumImagePath = "images/Simon_and_Garfunkel,_Bridge_over_Troubled_Water.jpg"
 files = {
     'data': (albumImagePath, open(albumImagePath, 'rb')),
     'metadata': (None, '{\'title\':\'Bridge Over Troubled Water\',\'artistId\':4,\'releaseDate\':\'1970-01-01\'}'),
 }
 requests.post('http://localhost:4567/album/add', headers=headers, files=files)
-print("Posted Album with ID=6")
+print("Posted Album with ID=10")
 
 #POST Track
 #TrackId = 1
 audioPath = "audio/Portugal_The_Man_-_Feel_It_Still_Official_Video.mp3"
 files = {
     'data': (audioPath, open(audioPath, 'rb')),
-    'metadata': (None, '{\'title\':\'Feel It Still\',\'artistId\':1,\'albumId\':1,\'releaseDate\':\'1970-01-01\'}'),
+    'metadata': (None, '{\'title\':\'Feel It Still\',\'artistId\':1,\'albumId\':5,\'releaseDate\':\'1970-01-01\'}'),
 }
 requests.post('http://localhost:4567/album/add', headers=headers, files=files)
 print("Posted Track with ID=1")
@@ -89,7 +89,7 @@ print("Posted Track with ID=1")
 audioPath = "audio/Rise_Against_-_Prayer_Of_The_Refugee.mp3"
 files = {
     'data': (audioPath, open(audioPath, 'rb')),
-    'metadata': (None, '{\'title\':\'Feel It Still\',\'artistId\':2,\'albumId\':2,\'releaseDate\':\'1970-01-01\'}'),
+    'metadata': (None, '{\'title\':\'Prayer of The Refugee\',\'artistId\':2,\'albumId\':6,\'releaseDate\':\'1970-01-01\'}'),
 }
 requests.post('http://localhost:4567/album/add', headers=headers, files=files)
 print("Posted Track with ID=2")
@@ -97,7 +97,7 @@ print("Posted Track with ID=2")
 audioPath = "audio/Rise_Against_-_Savior.mp3"
 files = {
     'data': (audioPath, open(audioPath, 'rb')),
-    'metadata': (None, '{\'title\':\'Feel It Still\',\'artistId\':2,\'albumId\':2,\'releaseDate\':\'1970-01-01\'}'),
+    'metadata': (None, '{\'title\':\'Savior\',\'artistId\':2,\'albumId\':6,\'releaseDate\':\'1970-01-01\'}'),
 }
 requests.post('http://localhost:4567/album/add', headers=headers, files=files)
 print("Posted Track with ID=3")
@@ -105,7 +105,7 @@ print("Posted Track with ID=3")
 audioPath = "audio/Shakira_-_Hips_Dont_Lie_ft_Wyclef_Jean.mp3"
 files = {
     'data': (audioPath, open(audioPath, 'rb')),
-    'metadata': (None, '{\'title\':\'Hips Dont Lie\',\'artistId\':3,\'albumId\':3,\'releaseDate\':\'1970-01-01\'}'),
+    'metadata': (None, '{\'title\':\'Hips Dont Lie\',\'artistId\':3,\'albumId\':7,\'releaseDate\':\'1970-01-01\'}'),
 }
 requests.post('http://localhost:4567/album/add', headers=headers, files=files)
 print("Posted Track with ID=4")
@@ -113,7 +113,7 @@ print("Posted Track with ID=4")
 audioPath = "audio/Shakira_-_Waka_Waka_This_Time_for_Africa_The_Official_2010_FIFA_World_Cup_Song.mp3"
 files = {
     'data': (audioPath, open(audioPath, 'rb')),
-    'metadata': (None, '{\'title\':\'Waka Waka\',\'artistId\':3,\'albumId\':4,\'releaseDate\':\'1970-01-01\'}'),
+    'metadata': (None, '{\'title\':\'Waka Waka\',\'artistId\':3,\'albumId\':8,\'releaseDate\':\'1970-01-01\'}'),
 }
 requests.post('http://localhost:4567/album/add', headers=headers, files=files)
 print("Posted Track with ID=5")
@@ -121,7 +121,7 @@ print("Posted Track with ID=5")
 audioPath = "audio/Simon_and_Garfunkel_-_Bridge_Over_Troubled_Water.mp3"
 files = {
     'data': (audioPath, open(audioPath, 'rb')),
-    'metadata': (None, '{\'title\':\'Bridge Over Troubled Water\',\'artistId\':4,\'albumId\':6,\'releaseDate\':\'1970-01-01\'}'),
+    'metadata': (None, '{\'title\':\'Bridge Over Troubled Water\',\'artistId\':4,\'albumId\':10,\'releaseDate\':\'1970-01-01\'}'),
 }
 requests.post('http://localhost:4567/album/add', headers=headers, files=files)
 print("Posted Track with ID=6")
@@ -129,7 +129,7 @@ print("Posted Track with ID=6")
 audioPath = "audio/Simon_Garfunkel_-_Mrs_Robinson_Audio.mp3"
 files = {
     'data': (audioPath, open(audioPath, 'rb')),
-    'metadata': (None, '{\'title\':\'Mrs.Robinson\',\'artistId\':4,\'albumId\':5,\'releaseDate\':\'1970-01-01\'}'),
+    'metadata': (None, '{\'title\':\'Mrs.Robinson\',\'artistId\':4,\'albumId\':9,\'releaseDate\':\'1970-01-01\'}'),
 }
 requests.post('http://localhost:4567/album/add', headers=headers, files=files)
 print("Posted Track with ID=7")

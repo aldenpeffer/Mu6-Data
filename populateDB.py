@@ -9,6 +9,9 @@ jsonHeaders = {
     'Content-Type': 'application/json',
 }
 
+multipartHeaders = {
+    'Accept': 'application/json'
+}
 # command line args:
 # data/users.json data/artists.json data/albums.json data/tracks.json
 # argv[0] is the prog name
@@ -27,7 +30,7 @@ if __name__ == '__main__':
                     requests.post(endpoint, headers=jsonHeaders, data=entity)
             elif mimetype == 'multipart/form-data':
                 for entity in entities:
-                    requests.post('http://localhost:4567/album/add', headers=headers, files={
+                    requests.post('http://localhost:4567/album/add', headers=multipartHeaders, files={
                         'data': (entity['binary'], open(entity['binary'], 'rb')),
                         'metadata': (None, entity['metadata'])
                     })

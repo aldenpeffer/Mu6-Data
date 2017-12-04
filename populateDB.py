@@ -31,7 +31,7 @@ if __name__ == '__main__':
             elif mimetype == 'multipart/form-data':
                 for entity in entities:
                     requests.post('http://localhost:4567/album/add', headers=multipartHeaders, files={
-                        'data': (entity['binary'], open(entity['binary'], 'rb')),
+                        'data': (entity['data'], open(entity['data'], 'rb')),
                         'metadata': (None, entity['metadata'])
                     })
             else:

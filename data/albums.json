@@ -1,0 +1,13 @@
+{
+  "endpoint": "http://localhost:4567/album/add",
+  "mimetype": "multipart/form-data",
+  "entities": [
+    {"data":"images/Portugal._The_Man_Woodstock_album_cover.jpg","metadata":{"title":"Woodstock","artistId":1,"releaseDate":"1970-01-01"}},
+    {"data":"images/Rise_Against_-_The_Sufferer_&_The_Witness.jpg","metadata":{"title":"The Sufferer and The Witness","artistId":2,"releaseDate":"1970-01-01"}},
+    {"data":"images/Shakira_Oral_Fixation_2.jpg","metadata":{"title":"Oral Fixation 2","artistId":3,"releaseDate":"1970-01-01"}},
+    {"data":"images/Shakira_sale_el_sol_single_cover.jpg","metadata":{"title":"Sale el Sol","artistId":3,"releaseDate":"1970-01-01"}},
+    {"data":"images/Simon_and_Garfunk_Mrs._Robinson.jpg","metadata":{"title":"Mrs.Robinson","artistId":4,"releaseDate":"1970-01-01"}},
+    {"data":"images/Simon_and_Garfunkel,_Bridge_over_Troubled_Water.jpg","metadata":{"title":"Bridge Over Troubled Water","artistId":4,"releaseDate":"1970-01-01"}}
+  ]
+}
+

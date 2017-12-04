@@ -6,7 +6,7 @@ from pprint import pprint
 
 jsonHeaders = {
     'Accept': 'application/json',
-    'Content-Type': 'application/json',
+    'Content-Type': 'application/json'
 }
 
 multipartHeaders = {
@@ -30,9 +30,8 @@ if __name__ == '__main__':
                     requests.post(endpoint, headers=jsonHeaders, data=entity)
             elif mimetype == 'multipart/form-data':
                 for entity in entities:
-                    requests.post('http://localhost:4567/album/add', headers=multipartHeaders, files={
-                        'data': (entity['data'], open(entity['data'], 'rb')),
-                        'metadata': (None, entity['metadata'])
+                    requests.post('http://localhost:4567/album/add', headers=multipartHeaders, data=entity['metadata'], files={
+                        'data': (entity['data'], open(entity['data'], 'rb'))
                     })
             else:
                 print("unsupported MIME type")

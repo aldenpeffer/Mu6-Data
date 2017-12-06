@@ -30,7 +30,8 @@ if __name__ == '__main__':
                     requests.post(endpoint, headers=jsonHeaders, data=entity)
             elif mimetype == 'multipart/form-data':
                 for entity in entities:
-                    requests.post('http://localhost:4567/album/add', headers=multipartHeaders, data=entity['metadata'], files={
+                    requests.post('http://localhost:4567/album/add', headers=multipartHeaders, files={
+                        'metadata': (None, json.dumps(entity['metadata']), 'application/json'),
                         'data': (entity['data'], open(entity['data'], 'rb'))
                     })
             else:

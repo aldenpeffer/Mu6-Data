@@ -27,13 +27,15 @@ if __name__ == '__main__':
             mimetype = data['mimetype']
             if mimetype == 'application/json':
                 for entity in entities:
-                    requests.post(endpoint, headers=jsonHeaders, data=entity)
+                    response = requests.post(endpoint, headers=jsonHeaders, json=entity)
+                    print('Status: ' + str(response.status_code))
             elif mimetype == 'multipart/form-data':
                 for entity in entities:
-                    requests.post('http://localhost:4567/album/add', headers=multipartHeaders, files={
+                    response = requests.post(endpoint, headers=multipartHeaders, files={
                         'metadata': (None, json.dumps(entity['metadata']), 'application/json'),
                         'data': (entity['data'], open(entity['data'], 'rb'))
                     })
+                    print('Status: ' + str(response.status_code))
             else:
                 print("unsupported MIME type")
 

@@ -1,5 +1,5 @@
 {
-  "endpoint": "http://localhost:4567/user/add",
+  "endpoint": "/user/add",
   "mimetype": "application/json",
   "entities": [
     {"user":{"title":"Portugal The Man","accountType":"ARTIST"},"credentials":{"email":"a@gmail.com","password":"p"}},

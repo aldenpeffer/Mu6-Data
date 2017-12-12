@@ -12,8 +12,10 @@ jsonHeaders = {
 multipartHeaders = {
     'Accept': 'application/json'
 }
+
+baseUrl = "https://mu6.xyz"
 # command line args:
-# data/users.json data/artists.json data/albums.json data/tracks.json
+# data/artists.json data/albums.json data/tracks.json
 # argv[0] is the prog name
 # argv[1:] is the list of args excluding the prog name
 
@@ -22,7 +24,7 @@ if __name__ == '__main__':
         print("executing " + arg)
         with open(arg) as data_file:
             data = json.load(data_file)
-            endpoint = data['endpoint']
+            endpoint = baseUrl + data['endpoint']
             entities = data['entities']
             mimetype = data['mimetype']
             if mimetype == 'application/json':

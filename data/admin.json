@@ -1,0 +1,7 @@
+{
+  "endpoint": "/user/add",
+  "mimetype": "application/json",
+  "entities": [
+    {"user":{"title":"ROOT","accountType":"ADMIN"},"credentials":{"email":"root@mu6.xyz","password":"p"}}
+  ]
+}

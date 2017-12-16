@@ -13,7 +13,7 @@ multipartHeaders = {
     'Accept': 'application/json'
 }
 
-baseUrl = "https://mu6.xyz"
+baseUrl = "https://api.mu6.xyz"
 # command line args:
 # data/artists.json data/albums.json data/tracks.json
 # argv[0] is the prog name

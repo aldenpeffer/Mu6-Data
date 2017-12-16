@@ -1,0 +1,10 @@
+{
+  "endpoint": "/user/add",
+  "mimetype": "application/json",
+  "entities": [
+    {"user":{"fname":"Sean", "lname":"Milligan"},"credentials":{"email":"sean@example.com","password":"abc123"}},
+    {"user":{"fname":"Alden", "lname":"Peffer"},"credentials":{"email":"alden@example.com","password":"abc123"}},
+    {"user":{"fname":"Ryan", "lname":"Rego"},"credentials":{"email":"ryan.rego@example.com","password":"abc123"}},
+    {"user":{"fname":"Ryan", "lname":"Hilbert"},"credentials":{"email":"ryan@example.com","password":"abc123"}}
+  ]
+}

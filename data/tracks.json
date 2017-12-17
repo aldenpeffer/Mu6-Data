@@ -2,9 +2,8 @@
   "endpoint": "/track/add",
   "mimetype": "multipart/form-data",
   "entities": [
-    {"data":"audio/Portugal_The_Man_-_Feel_It_Still_Official_Video.mp3","metadata":{"title":"Feel It Still","artistId":1,"albumId":5,"releaseDate":"1970-01-01", "runTime": "1:23"}},
-    {"data":"audio/Rise_Against_-_Prayer_Of_The_Refugee.mp3","metadata":{"title":"Prayer of The Refugee","artistId":2,"albumId":6,"releaseDate":"1970-01-01", "runTime": "1:23"}},
-    {"data":"audio/Rise_Against_-_Savior.mp3","metadata":{"title":"Savior","artistId":2,"albumId":6,"releaseDate":"1970-01-01", "runTime": "1:23"}},
+    
+    
     {"data":"audio/Shakira_-_Hips_Dont_Lie_ft_Wyclef_Jean.mp3","metadata":{"title":"Hips Dont Lie","artistId":3,"albumId":7,"releaseDate":"1970-01-01"}, "runTime": "1:23"},
     {"data":"audio/Shakira_-_Waka_Waka_This_Time_for_Africa_The_Official_2010_FIFA_World_Cup_Song.mp3","metadata":{"title":"Waka Waka","artistId":3,"albumId":8,"releaseDate":"1970-01-01", "runTime": "1:23"}},
     {"data":"audio/Simon_and_Garfunkel_-_Bridge_Over_Troubled_Water.mp3","metadata":{"title":"Bridge Over Troubled Water","artistId":4,"albumId":10,"releaseDate":"1970-01-01"}, "runTime": "1:23"},

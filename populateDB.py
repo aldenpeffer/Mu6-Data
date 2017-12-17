@@ -25,14 +25,12 @@ def send(data, saved):
     endpoint = data['endpoint']
     entities = data['entities']
     mimetype = data['mimetype']
-    saveitem = data['saveitem']
+    saveitem = data['saveitem'] if 'saveitem' in data else {}
     if mimetype == 'application/json':
         for entity in entities:
             for attribute in saved:
                 if attribute in entity['entity']:
                     entity['entity'][attribute] = saved[attribute]
-                    print('amended:')
-                    print(entity['entity'])
             print('Request : {:s}'.format(str(entity['entity'])))
             response = requests.post(base_url + endpoint, headers=jsonHeaders, json=entity['entity'])
             print('Response: {:d}'.format(response.status_code))
@@ -45,22 +43,30 @@ def send(data, saved):
                     saved[keymap['name']] = val
             except:
                 error = True
-            if entity['dependents'] and not error:
+            if 'dependents' in entity and not error:
                 send(entity['dependents'], saved)
     elif mimetype == 'multipart/form-data':
         for entity in entities:
             for attribute in saved:
                 if attribute in entity['entity']['metadata']:
                     entity['entity']['metadata'][attribute] = saved[attribute]
-                    print('amended:')
-                    print(entity['entity']['metadata'])
             print('Request : {:s}'.format(str(entity['entity'])))
             response = requests.post(base_url + endpoint, headers=multipartHeaders, files={
                 'metadata': (None, json.dumps(entity['entity']['metadata']), 'application/json'),
                 'data': (entity['entity']['data'], open(entity['entity']['data'], 'rb'))
             })
             print('Response: {:d}'.format(response.status_code))
-            exit()
+            error = False
+            try:
+                for keymap in saveitem:
+                    val = response.json()
+                    for key in keymap['path']:
+                        val = val[key]
+                    saved[keymap['name']] = val
+            except:
+                error = True
+            if 'dependents' in entity and not error:
+                send(entity['dependents'], saved)
     else:
         print("unsupported MIME type")
 

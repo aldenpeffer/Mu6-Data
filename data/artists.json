@@ -9,14 +9,14 @@
                 "accountType": "ARTIST"
             },
             "credentials": {
-                "email": "aaaaaaaaaaaa@gmail.com",
+                "email": "aaabbbcccd@gmail.com",
                 "password": "p"
             }
         },
         "dependents": {
             "endpoint": "/album/add",
             "mimetype": "multipart/form-data",
-            "saveitem": ["albumId"],
+            "saveitem": [{"path":["id"],"name":"albumId"}],
             "entities": [{
                 "entity": {
                     "data": "images/Portugal._The_Man_Woodstock_album_cover.jpg",

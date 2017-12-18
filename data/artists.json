@@ -210,5 +210,72 @@
                 }
             }]
         }
+    }, {
+        "entity": {
+            "user": {
+                "title": "Rhiannon Giddens",
+                "accountType": "ARTIST"
+            },
+            "credentials": {
+                "email": "e@gmail.com",
+                "password": "p"
+            }
+        },
+        "dependents": {
+            "endpoint": "/album/add",
+            "mimetype": "multipart/form-data",
+            "saveitem": ["albumId"],
+            "entities": [{
+                "entity": {
+                    "data": "images/Simon_and_Garfunk_Mrs._Robinson.jpg",
+                    "metadata": {
+                        "title": "Mrs.Robinson",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/Simon_and_Garfunkel_-_Bridge_Over_Troubled_Water.mp3",
+                            "metadata": {
+                                "title": "Bridge Over Troubled Water",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            }, {
+                "entity": {
+                    "data": "images/Simon_and_Garfunkel,_Bridge_over_Troubled_Water.jpg",
+                    "metadata": {
+                        "title": "Bridge Over Troubled Water",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/Simon_Garfunkel_-_Mrs_Robinson_Audio.mp3",
+                            "metadata": {
+                                "title": "Mrs.Robinson",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            }]
+        }
     }]
 }

@@ -1,7 +1,10 @@
 {
     "endpoint": "/user/add",
     "mimetype": "application/json",
-    "saveitem": [{"path":["user","id"],"name":"artistId"}],
+    "saveitem": [{
+        "path": ["user", "id"],
+        "name": "artistId"
+    }],
     "entities": [{
         "entity": {
             "user": {
@@ -16,7 +19,10 @@
         "dependents": {
             "endpoint": "/album/add",
             "mimetype": "multipart/form-data",
-            "saveitem": [{"path":["id"],"name":"albumId"}],
+            "saveitem": [{
+                "path": ["id"],
+                "name": "albumId"
+            }],
             "entities": [{
                 "entity": {
                     "data": "images/Portugal._The_Man_Woodstock_album_cover.jpg",
@@ -93,6 +99,22 @@
                         "artistId": 0,
                         "releaseDate": "1970-01-01"
                     }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/Shakira_-_Hips_Dont_Lie_ft_Wyclef_Jean.mp3",
+                            "metadata": {
+                                "title": "Hips Dont Lie",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
                 }
             }, {
                 "entity": {
@@ -102,6 +124,22 @@
                         "artistId": 0,
                         "releaseDate": "1970-01-01"
                     }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/Shakira_-_Waka_Waka_This_Time_for_Africa_The_Official_2010_FIFA_World_Cup_Song.mp3",
+                            "metadata": {
+                                "title": "Waka Waka",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01",
+                                "runTime": "1:23"
+                            }
+                        }
+                    }]
                 }
             }]
         }
@@ -128,6 +166,22 @@
                         "artistId": 0,
                         "releaseDate": "1970-01-01"
                     }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/Simon_and_Garfunkel_-_Bridge_Over_Troubled_Water.mp3",
+                            "metadata": {
+                                "title": "Bridge Over Troubled Water",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
                 }
             }, {
                 "entity": {
@@ -137,6 +191,22 @@
                         "artistId": 0,
                         "releaseDate": "1970-01-01"
                     }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/Simon_Garfunkel_-_Mrs_Robinson_Audio.mp3",
+                            "metadata": {
+                                "title": "Mrs.Robinson",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
                 }
             }]
         }

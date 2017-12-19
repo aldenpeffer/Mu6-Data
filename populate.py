@@ -13,15 +13,7 @@ multipartHeaders = {
     'Accept': 'application/json'
 }
 
-base_url = "https://api.mu6.xyz"
-# command line args:
-# data/artists.json data/albums.json data/tracks.json
-# argv[0] is the prog name
-# argv[1:] is the list of args excluding the prog name
-
-
-
-def send(data, saved):
+def send(base_url, data, saved={}):
     endpoint = data['endpoint']
     entities = data['entities']
     mimetype = data['mimetype']
@@ -34,6 +26,7 @@ def send(data, saved):
             print('Request : {:s}'.format(str(entity['entity'])))
             response = requests.post(base_url + endpoint, headers=jsonHeaders, json=entity['entity'])
             print('Response: {:d}'.format(response.status_code))
+            print()
             error = False
             try:
                 for keymap in saveitem:
@@ -44,7 +37,7 @@ def send(data, saved):
             except:
                 error = True
             if 'dependents' in entity and not error:
-                send(entity['dependents'], saved)
+                send(base_url, entity['dependents'], saved)
     elif mimetype == 'multipart/form-data':
         for entity in entities:
             for attribute in saved:
@@ -56,6 +49,7 @@ def send(data, saved):
                 'data': (entity['entity']['data'], open(entity['entity']['data'], 'rb'))
             })
             print('Response: {:d}'.format(response.status_code))
+            print()
             error = False
             try:
                 for keymap in saveitem:
@@ -66,11 +60,20 @@ def send(data, saved):
             except:
                 error = True
             if 'dependents' in entity and not error:
-                send(entity['dependents'], saved)
+                send(base_url, entity['dependents'], saved)
     else:
         print("unsupported MIME type")
 
 if __name__ == '__main__':
-    for arg in sys.argv[1:]:
-        with open(arg) as data_file:
-            send(json.load(data_file), {})
+    with open('populate.conf') as config_file:
+        config = json.load(config_file)
+        for data_path in config['files']:
+            with open(data_path) as data_file:
+                print('executing {:s}...'.format(data_path))
+                print()
+                send(config['base_url'], json.load(data_file))
+
+    # ye olden days of command line args:
+    # for arg in sys.argv[1:]:
+    #     with open(arg) as data_file:
+    #         send(json.load(data_file), {})

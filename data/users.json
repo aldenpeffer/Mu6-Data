@@ -1,14 +1,137 @@
 {
-  "endpoint": "/user/add",
-  "mimetype": "application/json",
-  "entities": [{
-  	"entity":{"user":{"fname":"Sean", "lname":"Milligan"},"credentials":{"email":"sean@example.com","password":"abc123"}}
-  },{
-  	"entity":{"user":{"fname":"Alden", "lname":"Peffer"},"credentials":{"email":"alden@example.com","password":"abc123"}}
-  },{
-  	"entity":{"user":{"fname":"Ryan", "lname":"Rego"},"credentials":{"email":"ryan.rego@example.com","password":"abc123"}}
-  },{
-  	"entity":{"user":{"fname":"Ryan", "lname":"Hilbert"},"credentials":{"email":"ryan@example.com","password":"abc123"}}
-  }
-  ]
+    "endpoint": "/user/add",
+    "mimetype": "application/json",
+    "entities": [{
+        "entity": {
+            "user": {
+                "title": "seanmilligan",
+                "fname": "Sean",
+                "lname": "Milligan"
+            },
+            "credentials": {
+                "email": "sean.milligan@example.com",
+                "password": "p"
+            }
+        }
+    }, {
+        "entity": {
+            "user": {
+                "title": "aldenpeffer",
+                "fname": "Alden",
+                "lname": "Peffer"
+            },
+            "credentials": {
+                "email": "alden.peffer@example.com",
+                "password": "p"
+            }
+        }
+    }, {
+        "entity": {
+            "user": {
+                "title": "ryanrego",
+                "fname": "Ryan",
+                "lname": "Rego"
+            },
+            "credentials": {
+                "email": "ryan.rego@example.com",
+                "password": "p"
+            }
+        }
+    }, {
+        "entity": {
+            "user": {
+                "title": "ryanhilbert",
+                "fname": "Ryan",
+                "lname": "Hilbert"
+            },
+            "credentials": {
+                "email": "ryan.hilbert@example.com",
+                "password": "p"
+            }
+        }
+    }, {
+        "entity": {
+            "user": {
+                "title": "nealbeeken",
+                "fname": "Neal",
+                "lname": "Beeken"
+            },
+            "credentials": {
+                "email": "neal.beeken@example.com",
+                "password": "p"
+            }
+        }
+    }, {
+        "entity": {
+            "user": {
+                "title": "mrunalpatel",
+                "fname": "Mrunal",
+                "lname": "Patel"
+            },
+            "credentials": {
+                "email": "mrunal.patel@example.com",
+                "password": "p"
+            }
+        }
+    }, {
+        "entity": {
+            "user": {
+                "title": "briangavin",
+                "fname": "Brian",
+                "lname": "Gavin"
+            },
+            "credentials": {
+                "email": "brian.gavin@example.com",
+                "password": "p"
+            }
+        }
+    }, {
+        "entity": {
+            "user": {
+                "title": "divjotarora",
+                "fname": "Divjot",
+                "lname": "Arora"
+            },
+            "credentials": {
+                "email": "divjot.arora@example.com",
+                "password": "p"
+            }
+        }
+    }, {
+        "entity": {
+            "user": {
+                "title": "anthonysorbera",
+                "fname": "Anthony",
+                "lname": "Sorbera"
+            },
+            "credentials": {
+                "email": "anthony.sorbera@example.com",
+                "password": "p"
+            }
+        }
+    }, {
+        "entity": {
+            "user": {
+                "title": "brianhunter",
+                "fname": "Brian",
+                "lname": "Hunter"
+            },
+            "credentials": {
+                "email": "brian.hunter@example.com",
+                "password": "p"
+            }
+        }
+    }, {
+        "entity": {
+            "user": {
+                "title": "maxstein",
+                "fname": "Max",
+                "lname": "Stein"
+            },
+            "credentials": {
+                "email": "max.stein@example.com",
+                "password": "p"
+            }
+        }
+    }]
 }

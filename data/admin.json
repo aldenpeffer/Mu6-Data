@@ -1,8 +1,27 @@
 {
-  "endpoint": "/user/add",
-  "mimetype": "application/json",
-  "entities": [{
-"entity":{"user":{"title":"ROOT","accountType":"ADMIN"},"credentials":{"email":"root@mu6.xyz","password":"p"}}
-  }
-  ]
+    "endpoint": "/user/add",
+    "mimetype": "application/json",
+    "entities": [{
+        "entity": {
+            "user": {
+                "title": "root",
+                "accountType": "ADMIN"
+            },
+            "credentials": {
+                "email": "root@mu6.xyz",
+                "password": "p"
+            }
+        }
+    }, {
+        "entity": {
+            "user": {
+                "title": "admin",
+                "accountType": "ADMIN"
+            },
+            "credentials": {
+                "email": "admin@mu6.xyz",
+                "password": "p"
+            }
+        }
+    }]
 }

@@ -64,7 +64,10 @@
         "dependents": {
             "endpoint": "/album/add",
             "mimetype": "multipart/form-data",
-            "saveitem": ["albumId"],
+            "saveitem": [{
+                "path": ["id"],
+                "name": "albumId"
+            }],
             "entities": [{
                 "entity": {
                     "data": "images/Rise_Against_-_The_Sufferer_&_The_Witness.jpg",
@@ -90,7 +93,10 @@
         "dependents": {
             "endpoint": "/album/add",
             "mimetype": "multipart/form-data",
-            "saveitem": ["albumId"],
+            "saveitem": [{
+                "path": ["id"],
+                "name": "albumId"
+            }],
             "entities": [{
                 "entity": {
                     "data": "images/Shakira_sale_el_sol_single_cover.jpg",
@@ -157,7 +163,10 @@
         "dependents": {
             "endpoint": "/album/add",
             "mimetype": "multipart/form-data",
-            "saveitem": ["albumId"],
+            "saveitem": [{
+                "path": ["id"],
+                "name": "albumId"
+            }],
             "entities": [{
                 "entity": {
                     "data": "images/Simon_and_Garfunk_Mrs._Robinson.jpg",
@@ -224,7 +233,10 @@
         "dependents": {
             "endpoint": "/album/add",
             "mimetype": "multipart/form-data",
-            "saveitem": ["albumId"],
+            "saveitem": [{
+                "path": ["id"],
+                "name": "albumId"
+            }],
             "entities": [{
                 "entity": {
                     "data": "images/Simon_and_Garfunk_Mrs._Robinson.jpg",

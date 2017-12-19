@@ -23,9 +23,9 @@ def send(base_url, data, saved={}):
             for attribute in saved:
                 if attribute in entity['entity']:
                     entity['entity'][attribute] = saved[attribute]
-            print('Request : {:s}'.format(str(entity['entity'])))
+            print('Request : {:s}\n{:s}'.format(endpoint, str(entity['entity'])))
             response = requests.post(base_url + endpoint, headers=jsonHeaders, json=entity['entity'])
-            print('Response: {:d}'.format(response.status_code))
+            print('Response: {:d}\n{:s}'.format(response.status_code, response.text))
             print()
             error = False
             try:
@@ -43,12 +43,12 @@ def send(base_url, data, saved={}):
             for attribute in saved:
                 if attribute in entity['entity']['metadata']:
                     entity['entity']['metadata'][attribute] = saved[attribute]
-            print('Request : {:s}'.format(str(entity['entity'])))
+            print('Request : {:s}\n{:s}'.format(endpoint, str(entity['entity'])))
             response = requests.post(base_url + endpoint, headers=multipartHeaders, files={
                 'metadata': (None, json.dumps(entity['entity']['metadata']), 'application/json'),
                 'data': (entity['entity']['data'], open(entity['entity']['data'], 'rb'))
             })
-            print('Response: {:d}'.format(response.status_code))
+            print('Response: {:d}\n{:s}'.format(response.status_code, response.text))
             print()
             error = False
             try:

@@ -133,5 +133,41 @@
                 "password": "p"
             }
         }
+    }, {
+        "entity": {
+            "user": {
+                "title": "stanleylim",
+                "fname": "Stanley",
+                "lname": "Lim"
+            },
+            "credentials": {
+                "email": "stanley.lim@example.com",
+                "password": "p"
+            }
+        }
+    }, {
+        "entity": {
+            "user": {
+                "title": "rominpersaud",
+                "fname": "Romin",
+                "lname": "Persaud"
+            },
+            "credentials": {
+                "email": "romin.persaud@example.com",
+                "password": "p"
+            }
+        }
+    }, {
+        "entity": {
+            "user": {
+                "title": "anthonyroy",
+                "fname": "Anthony",
+                "lname": "Roy"
+            },
+            "credentials": {
+                "email": "anthony.roy@example.com",
+                "password": "p"
+            }
+        }
     }]
 }

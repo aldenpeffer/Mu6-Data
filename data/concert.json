@@ -1,0 +1,7 @@
+{
+  "endpoint": "http://localhost:4567/concert/add",
+  "mimetype": "multipart/form-data",
+  "entities": [
+    {"data":"images/Portugal._The_Man_Woodstock_album_cover.jpg","metadata":{"title":"concert","artistId":1,"description":"this is a concert test","time":5, "venue":"trap house"}}
+  ]
+}

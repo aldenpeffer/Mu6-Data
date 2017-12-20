@@ -67,7 +67,7 @@ def send(base_url, data, saved={}):
         print("unsupported MIME type")
 
 if __name__ == '__main__':
-        config = json.loads('{"base_url": "https://api.mu6.xyz","files": ["data/admin.json", "data/users.json", "data/artists.json"]}')
+        config = json.loads('{"base_url": "https://api.mu6.xyz","files": ["data/admin.json", "data/users.json", "data/updated_artists.json"]}')
         for data_path in config['files']:
             with open(data_path) as data_file:
                 print('executing {:s}...'.format(data_path))

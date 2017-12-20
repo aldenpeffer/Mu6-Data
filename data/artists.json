@@ -289,5 +289,1667 @@
                 }
             }]
         }
+    },
+    {
+        "entity": {
+            "user": {
+                "title": "Adele",
+                "accountType": "ARTIST"
+            },
+            "credentials": {
+                "email": "f@gmail.com",
+                "password": "p"
+            }
+        },
+        "dependents": {
+            "endpoint": "/album/add",
+            "mimetype": "multipart/form-data",
+            "saveitem": [{
+                "path": ["id"],
+                "name": "albumId"
+            }],
+            "entities": [{
+                "entity": {
+                    "data": "images/21_album_art.jpg",
+                    "metadata": {
+                        "title": "Mrs.Robinson",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/rolling_in_the_deep.mp3",
+                            "metadata": {
+                                "title": "Rolling In The Deep",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/rumor_has_it.mp3",
+                            "metadata": {
+                                "title": "Rumor Has It",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/set_fire_to_the_rain.mp3",
+                            "metadata": {
+                                "title": "Set Fire To The Rain",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/someone_like_you.mp3",
+                            "metadata": {
+                                "title": "Someone Like You",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            }]
+        }
+    },
+    {
+        "entity": {
+            "user": {
+                "title": "Lil Wayne",
+                "accountType": "ARTIST"
+            },
+            "credentials": {
+                "email": "g@gmail.com",
+                "password": "p"
+            }
+        },
+        "dependents": {
+            "endpoint": "/album/add",
+            "mimetype": "multipart/form-data",
+            "saveitem": [{
+                "path": ["id"],
+                "name": "albumId"
+            }],
+            "entities": [{
+                "entity": {
+                    "data": "images/i_am_not_a_human_being.png",
+                    "metadata": {
+                        "title": "I Am Not A Human Being",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/gonerrhea.mp3",
+                            "metadata": {
+                                "title": "Gonerrhea",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/days_and_days.mp3",
+                            "metadata": {
+                                "title": "Days And Days",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/right_above_it.mp3",
+                            "metadata": {
+                                "title": "Right Above It",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/rich_as.mp3",
+                            "metadata": {
+                                "title": "Rich As",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/bill_gates.mp3",
+                            "metadata": {
+                                "title": "Bill Gates",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/ym_banger.mp3",
+                            "metadata": {
+                                "title": "YM Banger",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/trippy.mp3",
+                            "metadata": {
+                                "title": "Trippy",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            },
+            {
+                "entity": {
+                    "data": "images/tha_carter_iii_album_art.jpg",
+                    "metadata": {
+                        "title": "Tha Carter III",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/three_peat.m4a",
+                            "metadata": {
+                                "title": "3 Peat",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/mr_carter.mp3",
+                            "metadata": {
+                                "title": "Mr. Carter",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/a_milli.mp3",
+                            "metadata": {
+                                "title": "A Milli",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/got_money.mp3",
+                            "metadata": {
+                                "title": "Got Money",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/mrs_officer.mp3",
+                            "metadata": {
+                                "title": "Mrs. Officer",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/shoot_me_down.mp3",
+                            "metadata": {
+                                "title": "Shoot Me Down",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/lollipop.m4a",
+                            "metadata": {
+                                "title": "Lollipop",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/p_monster.mp3",
+                            "metadata": {
+                                "title": "Monster",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/lollipop_remix.mp3",
+                            "metadata": {
+                                "title": "Lollipop (remix)",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            },
+            {
+                "entity": {
+                    "data": "images/tha_carter_iv_album_art.jpg",
+                    "metadata": {
+                        "title": "Tha Carter IV",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/6_foot_7_foot.mp3",
+                            "metadata": {
+                                "title": "6 Foot 7 Foot",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/john.mp3",
+                            "metadata": {
+                                "title": "John",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/how_to_love.mp3",
+                            "metadata": {
+                                "title": "How To Love",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/mirror.mp3",
+                            "metadata": {
+                                "title": "Mirror",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            }]
+        }
+    },
+    {
+        "entity": {
+            "user": {
+                "title": "B.o.B.",
+                "accountType": "ARTIST"
+            },
+            "credentials": {
+                "email": "h@gmail.com",
+                "password": "p"
+            }
+        },
+        "dependents": {
+            "endpoint": "/album/add",
+            "mimetype": "multipart/form-data",
+            "saveitem": [{
+                "path": ["id"],
+                "name": "albumId"
+            }],
+            "entities": [{
+                "entity": {
+                    "data": "images/adventures_of_bobby_ray_album_art.jpg",
+                    "metadata": {
+                        "title": "Adventures of Bobby Ray",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/nothing_on_you.mp3",
+                            "metadata": {
+                                "title": "Nothing On You",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/airplanes.mp3",
+                            "metadata": {
+                                "title": "Airplanes",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/magic.mp3",
+                            "metadata": {
+                                "title": "Magic",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            },
+            {
+                "entity": {
+                    "data": "images/strange_clouds_album_art.jpg",
+                    "metadata": {
+                        "title": "Strange Clouds",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/ray_bands.mp3",
+                            "metadata": {
+                                "title": "Ray Bands",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/both_of_us.mp3",
+                            "metadata": {
+                                "title": "Strange Clouds",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/out_of_my_mind.mp3",
+                            "metadata": {
+                                "title": "Out Of My Mind",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            }]
+        }
+    },
+    {
+        "entity": {
+            "user": {
+                "title": "Beyonce",
+                "accountType": "ARTIST"
+            },
+            "credentials": {
+                "email": "i@gmail.com",
+                "password": "p"
+            }
+        },
+        "dependents": {
+            "endpoint": "/album/add",
+            "mimetype": "multipart/form-data",
+            "saveitem": [{
+                "path": ["id"],
+                "name": "albumId"
+            }],
+            "entities": [{
+                "entity": {
+                    "data": "images/4_album_art.png",
+                    "metadata": {
+                        "title": "4",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/best_thing_I_never_had.mp3",
+                            "metadata": {
+                                "title": "Best Thing I Never Had",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/love_on_top.mp3",
+                            "metadata": {
+                                "title": "Love On Top",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/countdown.mp3",
+                            "metadata": {
+                                "title": "Countdown",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            }, {
+                "entity": {
+                    "data": "images/beyonce_album_art.png",
+                    "metadata": {
+                        "title": "BEYONCE",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/drunk_in_love.mp3",
+                            "metadata": {
+                                "title": "Drunk In Love",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/partition.mp3",
+                            "metadata": {
+                                "title": "Partition",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/Mine.mp3",
+                            "metadata": {
+                                "title": "Mine",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/xo.mp3",
+                            "metadata": {
+                                "title": "XO",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            }]
+        }
+    },
+    {
+        "entity": {
+            "user": {
+                "title": "Drake",
+                "accountType": "ARTIST"
+            },
+            "credentials": {
+                "email": "j@gmail.com",
+                "password": "p"
+            }
+        },
+        "dependents": {
+            "endpoint": "/album/add",
+            "mimetype": "multipart/form-data",
+            "saveitem": [{
+                "path": ["id"],
+                "name": "albumId"
+            }],
+            "entities": [{
+                "entity": {
+                    "data": "images/take_care_album_art.jpg",
+                    "metadata": {
+                        "title": "Take Care",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/Take_Care.mp3",
+                            "metadata": {
+                                "title": "Take Care",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/Over_My_Dead_Body.mp3",
+                            "metadata": {
+                                "title": "Over My Dead Body",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/Shot_For_Me.mp3",
+                            "metadata": {
+                                "title": "Shot For Me",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/Headlines.mp3",
+                            "metadata": {
+                                "title": "Headlines",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/Crew_Love.mp3",
+                            "metadata": {
+                                "title": "Crew Love",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/Marvins_Room.mp3",
+                            "metadata": {
+                                "title": "Marvins Room",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/Make_Me_Proud.mp3",
+                            "metadata": {
+                                "title": "Make Me Proud",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/Doing_It_Wrong.mp3",
+                            "metadata": {
+                                "title": "Doing It Wrong",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/HYFR.mp3",
+                            "metadata": {
+                                "title": "HYFR",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/Practice.mp3",
+                            "metadata": {
+                                "title": "Practice",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/The_Ride.mp3",
+                            "metadata": {
+                                "title": "The Ride",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/The_Motto.mp3",
+                            "metadata": {
+                                "title": "The Motto",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            }, {
+                "entity": {
+                    "data": "images/nothing_was_the_same_album_art.jpeg",
+                    "metadata": {
+                        "title": "Nothing Was The Same",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/tuscan_leather.mp3",
+                            "metadata": {
+                                "title": "Tuscan Leather",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/furthest_thing.mp3",
+                            "metadata": {
+                                "title": "Furthest Thing",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/wu-tang_forever.mp3",
+                            "metadata": {
+                                "title": "Wu-Tang Forever",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/own_it.mp3",
+                            "metadata": {
+                                "title": "Own It",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/worst_behavior.mp3",
+                            "metadata": {
+                                "title": "Worst Behavior",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/from_time.mp3",
+                            "metadata": {
+                                "title": "From Time",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/connect.mp3",
+                            "metadata": {
+                                "title": "Connect",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/the_language.mp3",
+                            "metadata": {
+                                "title": "The Language",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/305_to_my_city.mp3",
+                            "metadata": {
+                                "title": "305 to My City",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/too_much.mp3",
+                            "metadata": {
+                                "title": "Too Much",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/pound_cake.mp3",
+                            "metadata": {
+                                "title": "Pound Cake",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/come_thru.mp3",
+                            "metadata": {
+                                "title": "Come Thru",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/All_Me.mp3",
+                            "metadata": {
+                                "title": "All Me",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            },
+            {
+                "entity": {
+                    "data": "images/thank_me_later_album_art.jpg",
+                    "metadata": {
+                        "title": "Thank Me Later",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/fireworks.mp3",
+                            "metadata": {
+                                "title": "Fireworks",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/karaoke.mp3",
+                            "metadata": {
+                                "title": "Karaoke",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/the_resistance.mp3",
+                            "metadata": {
+                                "title": "The Resistance",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/over.mp3",
+                            "metadata": {
+                                "title": "Over",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/show_me_a_good_time.mp3",
+                            "metadata": {
+                                "title": "Show Me A Good Time",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/up_all_night.mp3",
+                            "metadata": {
+                                "title": "Up All Night",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/fancy.mp3",
+                            "metadata": {
+                                "title": "Fancy",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/shut_it_down.mp3",
+                            "metadata": {
+                                "title": "Shut It Down",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/unforgettable.mp3",
+                            "metadata": {
+                                "title": "Unforgettable",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/light_up.mp3",
+                            "metadata": {
+                                "title": "Light Up",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/miss_me.mp3",
+                            "metadata": {
+                                "title": "Miss Me",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/find_your_love.mp3",
+                            "metadata": {
+                                "title": "Find Your Love",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/thank_me_now.mp3",
+                            "metadata": {
+                                "title": "Thank Me Now",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            }]
+        }
+    },
+    {
+        "entity": {
+            "user": {
+                "title": "Foster The People",
+                "accountType": "ARTIST"
+            },
+            "credentials": {
+                "email": "k@gmail.com",
+                "password": "p"
+            }
+        },
+        "dependents": {
+            "endpoint": "/album/add",
+            "mimetype": "multipart/form-data",
+            "saveitem": [{
+                "path": ["id"],
+                "name": "albumId"
+            }],
+            "entities": [{
+                "entity": {
+                    "data": "images/torches_album_art.jpg",
+                    "metadata": {
+                        "title": "Torches",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/pumped_up_kicks.mp3",
+                            "metadata": {
+                                "title": "pumped_up_kicks",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/call_it_what_you_want.mp3",
+                            "metadata": {
+                                "title": "call_it_what_you_want",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/dont_stop.mp3",
+                            "metadata": {
+                                "title": "Don't Stop (Colors on the Wall)",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/someone_like_you.mp3",
+                            "metadata": {
+                                "title": "Someone Like You",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            }]
+        }
+    },
+    {
+        "entity": {
+            "user": {
+                "title": "Mariah Carey",
+                "accountType": "ARTIST"
+            },
+            "credentials": {
+                "email": "l@gmail.com",
+                "password": "p"
+            }
+        },
+        "dependents": {
+            "endpoint": "/album/add",
+            "mimetype": "multipart/form-data",
+            "saveitem": [{
+                "path": ["id"],
+                "name": "albumId"
+            }],
+            "entities": [{
+                "entity": {
+                    "data": "images/day_dream_album_art.jpg",
+                    "metadata": {
+                        "title": "Daydream",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/fantasy.mp3",
+                            "metadata": {
+                                "title": "Fantasy",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/one_sweet_day.mp3",
+                            "metadata": {
+                                "title": "One Sweet Day",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/always_be_my_baby.mp3",
+                            "metadata": {
+                                "title": "Always Be My Baby",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            },
+            {
+                "entity": {
+                    "data": "images/mariah_carey_album_art.jpg",
+                    "metadata": {
+                        "title": "Mariah Carey",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/vision_of_love.mp3",
+                            "metadata": {
+                                "title": "Vison Of Love",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/love_takes_time.mp3",
+                            "metadata": {
+                                "title": "Love Takes Time",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            },
+            {
+                "entity": {
+                    "data": "images/the_emancipation_of_mimi_album_art.jpg",
+                    "metadata": {
+                        "title": "The Emancipation of Mimi",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/we_belong_together.mp3",
+                            "metadata": {
+                                "title": "We Belong Together",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/shake_it_off.mp3",
+                            "metadata": {
+                                "title": "Shake It Off",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            }]
+        }
+    },
+    {
+        "entity": {
+            "user": {
+                "title": "Maroon 5",
+                "accountType": "ARTIST"
+            },
+            "credentials": {
+                "email": "m@gmail.com",
+                "password": "p"
+            }
+        },
+        "dependents": {
+            "endpoint": "/album/add",
+            "mimetype": "multipart/form-data",
+            "saveitem": [{
+                "path": ["id"],
+                "name": "albumId"
+            }],
+            "entities": [{
+                "entity": {
+                    "data": "images/hands_all_over_album_art.png",
+                    "metadata": {
+                        "title": "Hands All Over",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/misery.mp3",
+                            "metadata": {
+                                "title": "Misery",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/moves_like_jagger.mp3",
+                            "metadata": {
+                                "title": "Moves Like Jagger",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            },
+            {
+                "entity": {
+                    "data": "images/it_wont_be_soon_before_long_album_art.png",
+                    "metadata": {
+                        "title": "It Won't Be Soon Before Long",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/if_i_never_see_your_face_again.mp3",
+                            "metadata": {
+                                "title": "If I Never See Your Face Again",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/makes_me_wonder.mp3",
+                            "metadata": {
+                                "title": "Makes Me Wonder",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/wake_up_call.m4a",
+                            "metadata": {
+                                "title": "Wake Up Call",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            },
+            {
+                "entity": {
+                    "data": "images/overexposed_album_art.png",
+                    "metadata": {
+                        "title": "Overexposed",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/one_more_night.mp3",
+                            "metadata": {
+                                "title": "One More Night",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/payphone.mp3",
+                            "metadata": {
+                                "title": "Payphone",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/daylight.mp3",
+                            "metadata": {
+                                "title": "Daylight",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/love_somebody.mp3",
+                            "metadata": {
+                                "title": "Love Somebody",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            },
+            {
+                "entity": {
+                    "data": "images/songs_about_jane_album_art.png",
+                    "metadata": {
+                        "title": "Songs About Jane",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/harder_to_breathe.mp3",
+                            "metadata": {
+                                "title": "Harder to Breathe",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/this_love.mp3",
+                            "metadata": {
+                                "title": "This Love",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/she_will_be_loved.mp3",
+                            "metadata": {
+                                "title": "She Will Be Loved",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/sunday_morning.mp3",
+                            "metadata": {
+                                "title": "Sunday Monday",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            },
+            {
+                "entity": {
+                    "data": "images/v_album_art.png",
+                    "metadata": {
+                        "title": "V",
+                        "artistId": 0,
+                        "releaseDate": "1970-01-01"
+                    }
+                },
+                "dependents": {
+                    "endpoint": "/track/add",
+                    "mimetype": "multipart/form-data",
+                    "entities": [{
+                        "entity": {
+                            "data": "audio/maps.mp3",
+                            "metadata": {
+                                "title": "Maps",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/sugar.mp3",
+                            "metadata": {
+                                "title": "Sugar",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    },
+                    {
+                        "entity": {
+                            "data": "audio/animals.mp3",
+                            "metadata": {
+                                "title": "Animals",
+                                "artistId": 0,
+                                "albumId": 0,
+                                "releaseDate": "1970-01-01"
+                            },
+                            "runTime": "1:23"
+                        }
+                    }]
+                }
+            }]
+        }
     }]
 }

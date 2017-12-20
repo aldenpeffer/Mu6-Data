@@ -23,5 +23,60 @@
                 "password": "p"
             }
         }
+    }, {
+        "entity": {
+            "user": {
+                "title": "basic",
+                "accountType": "BASIC"
+            },
+            "credentials": {
+                "email": "basic@mu6.xyz",
+                "password": "p"
+            }
+        }
+    }, {
+        "entity": {
+            "user": {
+                "title": "premium",
+                "accountType": "PREMIUM"
+            },
+            "credentials": {
+                "email": "premium@mu6.xyz",
+                "password": "p"
+            }
+        }
+    }, {
+        "entity": {
+            "user": {
+                "title": "friend me",
+                "accountType": "BASIC"
+            },
+            "credentials": {
+                "email": "friend@mu6.xyz",
+                "password": "p"
+            }
+        }
+    }, {
+        "entity": {
+            "user": {
+                "title": "delete me",
+                "accountType": "BASIC"
+            },
+            "credentials": {
+                "email": "delete@mu6.xyz",
+                "password": "p"
+            }
+        }
+    }, {
+        "entity": {
+            "user": {
+                "title": "unfriend me",
+                "accountType": "BASIC"
+            },
+            "credentials": {
+                "email": "unfriend@mu6.xyz",
+                "password": "p"
+            }
+        }
     }]
 }

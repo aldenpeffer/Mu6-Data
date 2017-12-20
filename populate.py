@@ -65,8 +65,8 @@ def send(base_url, data, saved={}):
         print("unsupported MIME type")
 
 if __name__ == '__main__':
-    with open('populate.conf') as config_file:
-        config = json.load(config_file)
+        #config = json.loads('{"base_url": "https://api.mu6.xyz","files": ["data/admin.json", "data/users.json", "data/artists.json"]}')
+        config = json.loads('{"base_url": "http://localhost:4567","files": ["data/admin.json", "data/users.json", "data/artists.json"]}')
         for data_path in config['files']:
             with open(data_path) as data_file:
                 print('executing {:s}...'.format(data_path))

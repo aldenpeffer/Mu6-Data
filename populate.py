@@ -24,6 +24,7 @@ def send(base_url, data, saved={}):
                 if attribute in entity['entity']:
                     entity['entity'][attribute] = saved[attribute]
             print('Request : {:s}\n{:s}'.format(endpoint, str(entity['entity'])))
+            print()
             response = requests.post(base_url + endpoint, headers=jsonHeaders, json=entity['entity'])
             print('Response: {:d}\n{:s}'.format(response.status_code, response.text))
             print()
@@ -44,6 +45,7 @@ def send(base_url, data, saved={}):
                 if attribute in entity['entity']['metadata']:
                     entity['entity']['metadata'][attribute] = saved[attribute]
             print('Request : {:s}\n{:s}'.format(endpoint, str(entity['entity'])))
+            print()
             response = requests.post(base_url + endpoint, headers=multipartHeaders, files={
                 'metadata': (None, json.dumps(entity['entity']['metadata']), 'application/json'),
                 'data': (entity['entity']['data'], open(entity['entity']['data'], 'rb'))
@@ -65,7 +67,7 @@ def send(base_url, data, saved={}):
         print("unsupported MIME type")
 
 if __name__ == '__main__':
-    with open('populate.conf') as config_file:
+    with open('config.json') as config_file:
         config = json.load(config_file)
         for data_path in config['files']:
             with open(data_path) as data_file:

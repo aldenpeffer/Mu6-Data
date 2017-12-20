@@ -1,4 +1,5 @@
-﻿{
+{
     "base_url": "https://api.mu6.xyz",
     "files": ["data/admin.json", "data/users.json", "data/artists.json"]
 }
+

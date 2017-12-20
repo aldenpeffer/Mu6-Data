@@ -222,77 +222,6 @@
     }, {
         "entity": {
             "user": {
-                "title": "Rhiannon Giddens",
-                "accountType": "ARTIST"
-            },
-            "credentials": {
-                "email": "e@gmail.com",
-                "password": "p"
-            }
-        },
-        "dependents": {
-            "endpoint": "/album/add",
-            "mimetype": "multipart/form-data",
-            "saveitem": [{
-                "path": ["id"],
-                "name": "albumId"
-            }],
-            "entities": [{
-                "entity": {
-                    "data": "images/Simon_and_Garfunk_Mrs._Robinson.jpg",
-                    "metadata": {
-                        "title": "Mrs.Robinson",
-                        "artistId": 0,
-                        "releaseDate": "1970-01-01"
-                    }
-                },
-                "dependents": {
-                    "endpoint": "/track/add",
-                    "mimetype": "multipart/form-data",
-                    "entities": [{
-                        "entity": {
-                            "data": "audio/Simon_and_Garfunkel_-_Bridge_Over_Troubled_Water.mp3",
-                            "metadata": {
-                                "title": "Bridge Over Troubled Water",
-                                "artistId": 0,
-                                "albumId": 0,
-                                "releaseDate": "1970-01-01"
-                            },
-                            "runTime": "1:23"
-                        }
-                    }]
-                }
-            }, {
-                "entity": {
-                    "data": "images/Simon_and_Garfunkel,_Bridge_over_Troubled_Water.jpg",
-                    "metadata": {
-                        "title": "Bridge Over Troubled Water",
-                        "artistId": 0,
-                        "releaseDate": "1970-01-01"
-                    }
-                },
-                "dependents": {
-                    "endpoint": "/track/add",
-                    "mimetype": "multipart/form-data",
-                    "entities": [{
-                        "entity": {
-                            "data": "audio/Simon_Garfunkel_-_Mrs_Robinson_Audio.mp3",
-                            "metadata": {
-                                "title": "Mrs.Robinson",
-                                "artistId": 0,
-                                "albumId": 0,
-                                "releaseDate": "1970-01-01"
-                            },
-                            "runTime": "1:23"
-                        }
-                    }]
-                }
-            }]
-        }
-    },
-    {
-        "entity": {
-            "user": {
                 "title": "Adele",
                 "accountType": "ARTIST"
             },
@@ -331,8 +260,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/rumor_has_it.mp3",
                             "metadata": {
@@ -343,8 +271,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/set_fire_to_the_rain.mp3",
                             "metadata": {
@@ -355,8 +282,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/someone_like_you.mp3",
                             "metadata": {
@@ -371,8 +297,7 @@
                 }
             }]
         }
-    },
-    {
+    }, {
         "entity": {
             "user": {
                 "title": "Lil Wayne",
@@ -413,8 +338,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/days_and_days.mp3",
                             "metadata": {
@@ -425,8 +349,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/right_above_it.mp3",
                             "metadata": {
@@ -437,8 +360,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/rich_as.mp3",
                             "metadata": {
@@ -449,8 +371,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/bill_gates.mp3",
                             "metadata": {
@@ -461,8 +382,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/ym_banger.mp3",
                             "metadata": {
@@ -473,8 +393,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/trippy.mp3",
                             "metadata": {
@@ -487,8 +406,7 @@
                         }
                     }]
                 }
-            },
-            {
+            }, {
                 "entity": {
                     "data": "images/tha_carter_iii_album_art.jpg",
                     "metadata": {
@@ -511,8 +429,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/mr_carter.mp3",
                             "metadata": {
@@ -523,8 +440,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/a_milli.mp3",
                             "metadata": {
@@ -535,8 +451,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/got_money.mp3",
                             "metadata": {
@@ -547,8 +462,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/mrs_officer.mp3",
                             "metadata": {
@@ -559,8 +473,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/shoot_me_down.mp3",
                             "metadata": {
@@ -571,8 +484,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/lollipop.m4a",
                             "metadata": {
@@ -583,8 +495,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/p_monster.mp3",
                             "metadata": {
@@ -595,8 +506,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/lollipop_remix.mp3",
                             "metadata": {
@@ -609,8 +519,7 @@
                         }
                     }]
                 }
-            },
-            {
+            }, {
                 "entity": {
                     "data": "images/tha_carter_iv_album_art.jpg",
                     "metadata": {
@@ -633,8 +542,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/john.mp3",
                             "metadata": {
@@ -645,8 +553,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/how_to_love.mp3",
                             "metadata": {
@@ -657,8 +564,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/mirror.mp3",
                             "metadata": {
@@ -673,8 +579,7 @@
                 }
             }]
         }
-    },
-    {
+    }, {
         "entity": {
             "user": {
                 "title": "B.o.B.",
@@ -715,8 +620,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/airplanes.mp3",
                             "metadata": {
@@ -727,8 +631,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/magic.mp3",
                             "metadata": {
@@ -741,8 +644,7 @@
                         }
                     }]
                 }
-            },
-            {
+            }, {
                 "entity": {
                     "data": "images/strange_clouds_album_art.jpg",
                     "metadata": {
@@ -765,8 +667,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/both_of_us.mp3",
                             "metadata": {
@@ -777,8 +678,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/out_of_my_mind.mp3",
                             "metadata": {
@@ -793,8 +693,7 @@
                 }
             }]
         }
-    },
-    {
+    }, {
         "entity": {
             "user": {
                 "title": "Beyonce",
@@ -835,8 +734,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/love_on_top.mp3",
                             "metadata": {
@@ -847,8 +745,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/countdown.mp3",
                             "metadata": {
@@ -884,8 +781,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/partition.mp3",
                             "metadata": {
@@ -896,8 +792,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/Mine.mp3",
                             "metadata": {
@@ -908,8 +803,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/xo.mp3",
                             "metadata": {
@@ -924,8 +818,7 @@
                 }
             }]
         }
-    },
-    {
+    }, {
         "entity": {
             "user": {
                 "title": "Drake",
@@ -966,8 +859,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/Over_My_Dead_Body.mp3",
                             "metadata": {
@@ -978,8 +870,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/Shot_For_Me.mp3",
                             "metadata": {
@@ -990,8 +881,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/Headlines.mp3",
                             "metadata": {
@@ -1002,8 +892,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/Crew_Love.mp3",
                             "metadata": {
@@ -1014,8 +903,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/Marvins_Room.mp3",
                             "metadata": {
@@ -1026,8 +914,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/Make_Me_Proud.mp3",
                             "metadata": {
@@ -1038,8 +925,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/Doing_It_Wrong.mp3",
                             "metadata": {
@@ -1050,8 +936,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/HYFR.mp3",
                             "metadata": {
@@ -1062,8 +947,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/Practice.mp3",
                             "metadata": {
@@ -1074,8 +958,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/The_Ride.mp3",
                             "metadata": {
@@ -1086,8 +969,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/The_Motto.mp3",
                             "metadata": {
@@ -1123,8 +1005,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/furthest_thing.mp3",
                             "metadata": {
@@ -1135,8 +1016,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/wu-tang_forever.mp3",
                             "metadata": {
@@ -1147,8 +1027,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/own_it.mp3",
                             "metadata": {
@@ -1159,8 +1038,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/worst_behavior.mp3",
                             "metadata": {
@@ -1171,8 +1049,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/from_time.mp3",
                             "metadata": {
@@ -1183,8 +1060,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/connect.mp3",
                             "metadata": {
@@ -1195,8 +1071,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/the_language.mp3",
                             "metadata": {
@@ -1207,8 +1082,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/305_to_my_city.mp3",
                             "metadata": {
@@ -1219,8 +1093,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/too_much.mp3",
                             "metadata": {
@@ -1231,8 +1104,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/pound_cake.mp3",
                             "metadata": {
@@ -1243,8 +1115,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/come_thru.mp3",
                             "metadata": {
@@ -1255,8 +1126,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/All_Me.mp3",
                             "metadata": {
@@ -1269,8 +1139,7 @@
                         }
                     }]
                 }
-            },
-            {
+            }, {
                 "entity": {
                     "data": "images/thank_me_later_album_art.jpg",
                     "metadata": {
@@ -1293,8 +1162,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/karaoke.mp3",
                             "metadata": {
@@ -1305,8 +1173,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/the_resistance.mp3",
                             "metadata": {
@@ -1317,8 +1184,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/over.mp3",
                             "metadata": {
@@ -1329,8 +1195,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/show_me_a_good_time.mp3",
                             "metadata": {
@@ -1341,8 +1206,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/up_all_night.mp3",
                             "metadata": {
@@ -1353,8 +1217,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/fancy.mp3",
                             "metadata": {
@@ -1365,8 +1228,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/shut_it_down.mp3",
                             "metadata": {
@@ -1377,8 +1239,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/unforgettable.mp3",
                             "metadata": {
@@ -1389,8 +1250,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/light_up.mp3",
                             "metadata": {
@@ -1401,8 +1261,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/miss_me.mp3",
                             "metadata": {
@@ -1413,8 +1272,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/find_your_love.mp3",
                             "metadata": {
@@ -1425,8 +1283,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/thank_me_now.mp3",
                             "metadata": {
@@ -1441,8 +1298,7 @@
                 }
             }]
         }
-    },
-    {
+    }, {
         "entity": {
             "user": {
                 "title": "Foster The People",
@@ -1483,8 +1339,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/call_it_what_you_want.mp3",
                             "metadata": {
@@ -1495,8 +1350,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/dont_stop.mp3",
                             "metadata": {
@@ -1507,8 +1361,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/someone_like_you.mp3",
                             "metadata": {
@@ -1523,8 +1376,7 @@
                 }
             }]
         }
-    },
-    {
+    }, {
         "entity": {
             "user": {
                 "title": "Mariah Carey",
@@ -1565,8 +1417,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/one_sweet_day.mp3",
                             "metadata": {
@@ -1577,8 +1428,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/always_be_my_baby.mp3",
                             "metadata": {
@@ -1591,8 +1441,7 @@
                         }
                     }]
                 }
-            },
-            {
+            }, {
                 "entity": {
                     "data": "images/mariah_carey_album_art.jpg",
                     "metadata": {
@@ -1615,8 +1464,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/love_takes_time.mp3",
                             "metadata": {
@@ -1629,8 +1477,7 @@
                         }
                     }]
                 }
-            },
-            {
+            }, {
                 "entity": {
                     "data": "images/the_emancipation_of_mimi_album_art.jpg",
                     "metadata": {
@@ -1653,8 +1500,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/shake_it_off.mp3",
                             "metadata": {
@@ -1669,8 +1515,7 @@
                 }
             }]
         }
-    },
-    {
+    }, {
         "entity": {
             "user": {
                 "title": "Maroon 5",
@@ -1711,8 +1556,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/moves_like_jagger.mp3",
                             "metadata": {
@@ -1725,8 +1569,7 @@
                         }
                     }]
                 }
-            },
-            {
+            }, {
                 "entity": {
                     "data": "images/it_wont_be_soon_before_long_album_art.png",
                     "metadata": {
@@ -1749,8 +1592,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/makes_me_wonder.mp3",
                             "metadata": {
@@ -1761,8 +1603,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/wake_up_call.m4a",
                             "metadata": {
@@ -1775,8 +1616,7 @@
                         }
                     }]
                 }
-            },
-            {
+            }, {
                 "entity": {
                     "data": "images/overexposed_album_art.png",
                     "metadata": {
@@ -1799,8 +1639,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/payphone.mp3",
                             "metadata": {
@@ -1811,8 +1650,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/daylight.mp3",
                             "metadata": {
@@ -1823,8 +1661,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/love_somebody.mp3",
                             "metadata": {
@@ -1837,8 +1674,7 @@
                         }
                     }]
                 }
-            },
-            {
+            }, {
                 "entity": {
                     "data": "images/songs_about_jane_album_art.png",
                     "metadata": {
@@ -1861,8 +1697,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/this_love.mp3",
                             "metadata": {
@@ -1873,8 +1708,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/she_will_be_loved.mp3",
                             "metadata": {
@@ -1885,8 +1719,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/sunday_morning.mp3",
                             "metadata": {
@@ -1899,8 +1732,7 @@
                         }
                     }]
                 }
-            },
-            {
+            }, {
                 "entity": {
                     "data": "images/v_album_art.png",
                     "metadata": {
@@ -1923,8 +1755,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/sugar.mp3",
                             "metadata": {
@@ -1935,8 +1766,7 @@
                             },
                             "runTime": "1:23"
                         }
-                    },
-                    {
+                    }, {
                         "entity": {
                             "data": "audio/animals.mp3",
                             "metadata": {
